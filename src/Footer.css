@@ -1,0 +1,85 @@
+.footer {
+  background-color: #111;
+  width: 100%;
+  height: auto;
+  color: aliceblue;
+  align-items: center;
+}
+.question {
+  text-align: center;
+  font-size: 1rem;
+}
+.container {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.left-container ul {
+  list-style-type: none;
+    padding-right:35px;
+}
+
+.right-container ul {
+  list-style-type: none;
+
+}
+li a {
+  color: aliceblue;
+  outline: none;
+  text-decoration: none;
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+
+li a:hover {
+  color: sienna;
+}
+.footer-logo{
+  display:flex;
+  padding:10px;
+   justify-content: center;
+  margin-bottom:20px;
+  
+}
+.facebook-logo{
+  width:50px;
+  height:30px;
+  padding:5px;
+}
+.github-logo{
+  width:50px;
+  padding:5px;
+   height:35px;
+  
+}
+.linkedin-logo{
+  width:50px;
+  padding:5px;
+  height:30px;
+}
+.instagram-logo{
+  width:36px;
+  padding:5px;
+  height:30px;
+}
+.twitter-logo{
+  width:36px;
+  padding:5px;
+  height:30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
